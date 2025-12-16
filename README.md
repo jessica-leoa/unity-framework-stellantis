@@ -3,6 +3,8 @@
 ## Passo a passo:
 
 ### 1° - Baixar a extensão C no VScode
+    - C/C++
+    - C/C++ Extension Pack
 ### 2° - Installar um compilador C (GCC)
     https://gcc.gnu.org/install/download.html
 ### 3° - checar se o GCC instalou 
@@ -16,13 +18,13 @@
             return 0;
         }
 
-    - Compile:
+    - Compile o código usando este comando:
         gcc teste.c -o teste.exe
 
-    - Execute:
+    - Execute usando este comando:
         ./teste.exe
 
-### 5° - Caso não rode, checar as variáveis de ambiente
+### 5° - Caso não rode, checar as VARIÁVEIS DE AMBIENTE, adicionando o caminho do arquivo baixado no PATH
 
 ## CONFIGURANDO AMBIENTE UNITY
 ### 6° - Entrar no repositório oficial: https://github.com/ThrowTheSwitch/Unity
